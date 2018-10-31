@@ -34,6 +34,7 @@ class App extends Component {
           </div>
           <div className="content col-10">
             <AuthorsList authors={authors} selectAuthor={this.selectAuthor} />
+            <AuthorDetail />
           </div>
         </div>
       </div>
