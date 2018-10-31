@@ -5,7 +5,7 @@ import BookAuthors from "./BookAuthors";
 class AuthorDetail extends Component {
   render() {
     let author = this.props.author;
-    let books = author.books.map(book => (
+    let bookAuthors = author.books.map(book => (
       <BookAuthors book={book} key={book.title} author={author} />
     ));
     return (
@@ -14,6 +14,7 @@ class AuthorDetail extends Component {
           <h3>{author.first_name + " " + author.last_name}</h3>
           <img
             src="https://placeholdit.imgix.net/~text?txtsize=33&txt=IshouldBEanIMAGE&w=300&h=300"
+            src={author.imageUrl}
             className="img-thumbnail"
           />
         </div>
