@@ -33,13 +33,6 @@ class AuthorDetail extends Component {
                 <button className="btn" style={{ backgroundColor: "blue" }} />
               </td>
             </tr>
-            <tr>
-              <td>I SHOULD BE ANOTHER BOOK NAME</td>
-              <td>I SHOULD BE A STRING OF THIS OHTER BOOK'S AUTHORS</td>
-              <td>
-                <button className="btn" style={{ backgroundColor: "red" }} />
-              </td>
-            </tr>
           </tbody>
         </table>
       </div>
